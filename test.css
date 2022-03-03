@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+}
+#parent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.section1 {
+    height: 50%;
+    background-color: lightgray;
+}
+.section1 p {
+    margin-top: 0;
+    padding: 40px;
+    align-items: flex-end;
+}
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    border-color: rgb(177, 177, 177);
+}
+.dot p {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+.button2p {
+    height: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 30px;
+}
+.button2 {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(177, 177, 177);
+    border-color: rgb(177, 177, 177);
+    
+}
+.button2 p {
+    margin: 0;
+    padding: 0;
+}
+.section2 {
+    height: 50%;
+    background-color: rgb(177, 177, 177);
+}
+.section2 p {
+    margin-top: 0;
+    padding: 40px;
+}
+.button3p {
+    height: 53%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 30px;
+}
+.button3 {
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+    border-color: lightgray;
+    
+}
+.button3 p {
+    margin: 0;
+    padding: 0;
+}
